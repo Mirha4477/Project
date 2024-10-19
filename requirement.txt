@@ -1,0 +1,6 @@
+torch
+torchvision
+transformers
+mlflow
+streamlit
+Pillow
