@@ -14,7 +14,7 @@ model = ViTForImageClassification.from_pretrained(
 )
 
 # Load the trained state_dict (update the path here)
-model.load_state_dict(torch.load('/content/drive/MyDrive/sign_language_model.pth'), strict=False)
+model.load_state_dict(torch.load('/content/sign_language_model.pth'), strict=False)
 model.eval()
 
 # Define image transformations
